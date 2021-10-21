@@ -1,0 +1,96 @@
+.itemsContainer {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.loading,
+.error {
+  text-align: center;
+}
+
+.itemCardContainer {
+  display: flex;
+  justify-content: initial;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: fit-height;
+}
+
+.itemCard {
+  width: 32%;
+  height: auto;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin: 17px 7px;
+  padding: 15px;
+}
+
+.title {
+  height: 60px;
+  margin-bottom: 10px;
+  color: rgb(71, 71, 71);
+  font-size: 17px;
+}
+
+.category,
+.price {
+  background-color: rgb(255, 245, 245);
+  display: inline-block;
+  padding: 10px 8px;
+  border-radius: 5px;
+  color: green;
+  margin-bottom: 15px;
+}
+
+.image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.description {
+  height: 70px;
+  margin: 20px 0px 30px 0px;
+  padding-right: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.description::-webkit-scrollbar {
+  width: 5px;
+}
+.description::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.description::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.description::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.priceAndCategory
+/* .btnGroup  */ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnAdd {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btnAdd {
+  background-color: rgba(9, 78, 6, 0.534);
+  color: white;
+}
+
+/* .btnRemove {
+  background-color: rgba(255, 0, 0, 0.562);
+  color: white;
+} */

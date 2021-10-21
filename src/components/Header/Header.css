@@ -1,0 +1,38 @@
+.header {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo h2 {
+  color: beige;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.navLinks {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks li {
+  list-style-type: none;
+  font-size: 17px;
+}
+
+.navLinks li a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+
+.navLinks li a:hover {
+  border-bottom: 2px solid beige;
+  transition: all 0.2s ease-in-out;
+}
